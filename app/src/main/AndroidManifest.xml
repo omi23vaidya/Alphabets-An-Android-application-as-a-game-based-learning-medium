@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="miranda.sean.androiddetechtouch" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/a3"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".B"
+            android:label="@string/title_activity_b"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".C"
+            android:label="@string/title_activity_c"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!--
+        <activity
+            android:name=".Puzzle_ABC_oddone_1"
+            android:label="@string/title_activity_puzzle__abc_oddone_1"
+            android:screenOrientation="landscape" >
+        </activity>
+        -->
+        <activity
+            android:name=".D"
+            android:label="@string/title_activity_d"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".A_images"
+            android:label="@string/title_activity_a_images" >
+        </activity>
+        <activity
+            android:name=".B_images"
+            android:label="@string/title_activity_b_images" >
+        </activity>
+        <activity
+            android:name=".C_images"
+            android:label="@string/title_activity_c_images" >
+        </activity>
+        <activity
+            android:name=".display_congo"
+            android:label="@string/title_activity_display_congo"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".oddone"
+            android:label="@string/title_activity_oddone"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".D_images"
+            android:label="@string/title_activity_d_images" >
+        </activity>
+        <activity
+            android:name=".F"
+            android:label="@string/title_activity_f"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".E"
+            android:label="@string/title_activity_e"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Atrace"
+            android:label="@string/title_activity_atrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Btrace"
+            android:label="@string/title_activity_btrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".ctrace"
+            android:label="@string/title_activity_ctrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/title_activity_home_screen" >
+        </activity>
+        <activity
+            android:name=".dtrace"
+            android:label="@string/title_activity_dtrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Etrace"
+            android:label="@string/title_activity_etrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Ftrace"
+            android:label="@string/title_activity_ftrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".G"
+            android:label="@string/title_activity_g"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Alphabets_numbers"
+            android:label="@string/title_activity_alphabets_numbers" >
+        </activity>
+        <activity
+            android:name=".AlphabetsScreen"
+            android:label="@string/title_activity_alphabets_screen" >
+        </activity>
+        <!--
+        <activity
+            android:name=".Menu"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        -->
+        <activity
+            android:name=".A"
+            android:label="@string/title_activity_a"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".SelectAlphabetCorrespondingToImage"
+            android:label="@string/title_activity_select_alphabet_corresponding_to_image"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".NextAlphabet"
+            android:label="@string/title_activity_next_alphabet"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!--
+        <activity
+            android:name=".sound"
+            android:label="@string/title_activity_sound" >
+        </activity>
+        -->
+        <activity
+            android:name=".Gtrace"
+            android:label="@string/title_activity_gtrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".H"
+            android:label="@string/title_activity_h"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Htrace"
+            android:label="@string/title_activity_htrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".I"
+            android:label="@string/title_activity_i"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Itrace"
+            android:label="@string/title_activity_itrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".J"
+            android:label="@string/title_activity_j"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Jtrace"
+            android:label="@string/title_activity_jtrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".K"
+            android:label="@string/title_activity_k"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Ktrace"
+            android:label="@string/title_activity_ktrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".L"
+            android:label="@string/title_activity_l"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Ltrace"
+            android:label="@string/title_activity_ltrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".M"
+            android:label="@string/title_activity_m"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Mtrace"
+            android:label="@string/title_activity_mtrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".N"
+            android:label="@string/title_activity_n"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Ntrace"
+            android:label="@string/title_activity_ntrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".O"
+            android:label="@string/title_activity_o"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Otrace"
+            android:label="@string/title_activity_otrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".P"
+            android:label="@string/title_activity_p"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Ptrace"
+            android:label="@string/title_activity_ptrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Q"
+            android:label="@string/title_activity_q"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Qtrace"
+            android:label="@string/title_activity_qtrace"
+            android:screenOrientation="landscape" >
+        </activity>
+
+        <!--
+        <activity
+            android:name=".R"
+            android:label="@string/title_activity_r" >
+        </activity>
+        -->
+
+        <activity
+            android:name=".Rtrace"
+            android:label="@string/title_activity_rtrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".R1"
+            android:label="@string/title_activity_r1"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".S"
+            android:label="@string/title_activity_s"
+            android:screenOrientation="landscape" >
+>
+        </activity>
+        <activity
+            android:name=".Strace"
+            android:label="@string/title_activity_strace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".T"
+            android:label="@string/title_activity_t"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Ttrace"
+            android:label="@string/title_activity_ttrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".U"
+            android:label="@string/title_activity_u"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Utrace"
+            android:label="@string/title_activity_utrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".V"
+            android:label="@string/title_activity_v"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".W"
+            android:label="@string/title_activity_w"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Vtrace"
+            android:label="@string/title_activity_vtrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Wtrace"
+            android:label="@string/title_activity_wtrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".X"
+            android:label="@string/title_activity_x"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Xtrace"
+            android:label="@string/title_activity_xtrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Y"
+            android:label="@string/title_activity_y"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Ytrace"
+            android:label="@string/title_activity_ytrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Z"
+            android:label="@string/title_activity_z"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Ztrace"
+            android:label="@string/title_activity_ztrace"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Number0"
+            android:label="@string/title_activity_number0"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Trace0"
+            android:label="@string/title_activity_trace0"
+            android:screenOrientation="landscape" >
+        </activity>
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".FindMissingAlphabet"
+            android:label="@string/title_activity_find_missing_alphabet"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".FlipTheTile"
+            android:label="@string/title_activity_flip_the_tile"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Trace1"
+            android:label="@string/title_activity_trace1"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Trace2"
+            android:label="@string/title_activity_trace2"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Trace3"
+            android:label="@string/title_activity_trace3"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Trace4"
+            android:label="@string/title_activity_trace4"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Trace5"
+            android:label="@string/title_activity_trace5"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Trace6"
+            android:label="@string/title_activity_trace6"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Trace7"
+            android:label="@string/title_activity_trace7"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Trace8"
+            android:label="@string/title_activity_trace8"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Trace9"
+            android:label="@string/title_activity_trace9"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Number1"
+            android:label="@string/title_activity_number1"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Number2"
+            android:label="@string/title_activity_number2"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Number3"
+            android:label="@string/title_activity_number3"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Number4"
+            android:label="@string/title_activity_number4"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Number5"
+            android:label="@string/title_activity_number5"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Number6"
+            android:label="@string/title_activity_number6"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Number7"
+            android:label="@string/title_activity_number7"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Number8"
+            android:label="@string/title_activity_number8"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Number9"
+            android:label="@string/title_activity_number9"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Display_congo2"
+            android:label="@string/title_activity_display_congo2"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Display_congo3"
+            android:label="@string/title_activity_display_congo3"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Display_congo4"
+            android:label="@string/title_activity_display_congo4"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Display_congo5"
+            android:label="@string/title_activity_display_congo5"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".NumberPuzzle1"
+            android:label="@string/title_activity_number_puzzle1"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".NumberPuzzle2"
+            android:label="@string/title_activity_number_puzzle2"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Display_congo6"
+            android:label="@string/title_activity_display_congo6"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Display_congo7"
+            android:label="@string/title_activity_display_congo7"
+            android:screenOrientation="landscape">
+        </activity>
+    </application>
+
+</manifest>

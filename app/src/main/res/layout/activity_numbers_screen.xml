@@ -1,0 +1,173 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    >
+
+
+    <AbsoluteLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/path_numbers"
+        tools:context=".MainActivity">
+        <!--android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"-->
+
+        <!-- <ImageButton
+             android:id="@+id/favorite_button"
+             android:layout_width="216dp"
+             android:layout_height="216dp"
+             android:src="@android:drawable/btn_star"
+             android:layout_alignParentBottom="true"
+             android:layout_centerHorizontal="true"
+             android:background="#00ffffff"
+             android:layout_x="70dp"
+             android:layout_y="1450dp" />-->
+
+
+
+
+        <!--<Button
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:id="@+id/button"
+            android:background="@drawable/round_button"
+            android:layout_x="35dp"
+            android:layout_y="1880dp"
+            android:textColor="#fff"/>-->
+
+
+        <!--android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"<![CDATA[ />
+
+        ]]>-->
+
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:text="0"
+            android:background="@drawable/custom_button"
+            android:id="@+id/b0"
+            android:layout_x="301dp"
+            android:layout_y="822dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:text="1"
+            android:background="@drawable/custom_button"
+            android:id="@+id/b1"
+            android:layout_x="177dp"
+            android:layout_y="769dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:text="2"
+            android:background="@drawable/custom_button"
+            android:id="@+id/b2"
+            android:layout_x="14dp"
+            android:layout_y="692dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:text="3"
+            android:background="@drawable/custom_button"
+            android:id="@+id/b3"
+            android:layout_x="172dp"
+            android:layout_y="593dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:text="4"
+            android:background="@drawable/custom_button"
+            android:id="@+id/b4"
+            android:layout_x="292dp"
+            android:layout_y="507dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:background="@drawable/puzzle_button"
+            android:id="@+id/puzzle1"
+            android:layout_x="127dp"
+            android:layout_y="426dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="58dp"
+            android:layout_height="51dp"
+            android:text="5"
+            android:background="@drawable/custom_button"
+            android:id="@+id/b5"
+            android:layout_x="17dp"
+            android:layout_y="360dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:text="6"
+            android:background="@drawable/custom_button"
+            android:id="@+id/b6"
+            android:layout_x="180dp"
+            android:layout_y="291dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:text="7"
+            android:background="@drawable/custom_button"
+            android:id="@+id/b7"
+            android:layout_x="300dp"
+            android:layout_y="241dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:text="8"
+            android:background="@drawable/custom_button"
+            android:id="@+id/b8"
+            android:layout_x="240dp"
+            android:layout_y="149dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:text="9"
+            android:background="@drawable/custom_button"
+            android:id="@+id/b9"
+            android:layout_x="98dp"
+            android:layout_y="126dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:background="@drawable/puzzle_button"
+            android:id="@+id/puzzle2"
+            android:layout_x="12dp"
+            android:layout_y="35dp" />
+
+
+    </AbsoluteLayout>
+</ScrollView>

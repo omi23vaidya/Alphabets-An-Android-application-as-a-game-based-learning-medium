@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shreya.puzzle1.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/puz7"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/displayImage1"
+        android:contentDescription="@string/app_name"
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="190dp"
+        android:id="@+id/displayImage2"
+        android:contentDescription="@string/app_name"
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="190dp"
+        android:id="@+id/displayImage3"
+        android:contentDescription="@string/app_name"
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="450dp"
+        android:layout_marginTop="190dp"
+        android:id="@+id/displayImage4"
+        android:contentDescription="@string/app_name"
+        />
+
+</RelativeLayout>
